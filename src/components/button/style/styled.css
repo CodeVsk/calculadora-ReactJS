@@ -1,0 +1,47 @@
+:root {
+  --bg-button: #0004;
+  --border-button: solid 1px #88;
+}
+
+.button {
+  font-size: 1.4em;
+  background: var(--bg-button);
+  color: #eeeeee;
+  border: none;
+  border-right: var(--border-button);
+  border-bottom: var(--border-button);
+  outline: none;
+  margin: 3px;
+  border-radius: 50px;
+  transition: 0.1s;
+}
+
+.button:hover {
+  background: rgba(0, 0, 0, 0.329);
+}
+
+.button:active {
+  background: #ccc;
+}
+
+.button.double {
+  grid-column: span 2;
+}
+
+.button.triple {
+  grid-column: span 3;
+}
+
+.button.operation {
+  background: #4ecca3;
+  color: #fff;
+}
+
+.button.operation:active {
+  background: #4ecca3;
+}
+
+.button.operation:hover {
+  background: #4ecca2d8;
+  color: rgba(255, 255, 255, 0.774);
+}
