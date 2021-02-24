@@ -21,7 +21,7 @@
 }
 
 .button:active {
-  background: #ccc;
+  background: rgba(0, 0, 0, 0.096);
 }
 
 .button.double {
@@ -33,7 +33,7 @@
 }
 
 .button.operation {
-  background: #4ecca3;
+  background: #4e54c8;
   color: #fff;
 }
 
@@ -42,6 +42,6 @@
 }
 
 .button.operation:hover {
-  background: #4ecca2d8;
+  background: #4e54c8a8;
   color: rgba(255, 255, 255, 0.774);
 }

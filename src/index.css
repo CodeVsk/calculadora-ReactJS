@@ -15,5 +15,5 @@ body {
   align-items: center;
   text-align: center;
   color: #fff;
-  background: #4ecca3;
+  background: linear-gradient(to right, #4e54c8, #8f94fb);
 }
